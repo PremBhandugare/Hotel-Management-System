@@ -30,7 +30,7 @@ public class AddDrivers extends JFrame implements ActionListener {
         mainPanel.setLayout(null);
 
         ImageIcon imgIcon = new ImageIcon(
-                ClassLoader.getSystemResource("hotel/management/system/icons/eleven.jpg"));
+                ClassLoader.getSystemResource("icons/eleven.jpg"));
         Image scaledImg = imgIcon.getImage().getScaledInstance(500, 300, Image.SCALE_DEFAULT);
         ImageIcon finalIcon = new ImageIcon(scaledImg);
         JLabel imageLabel = new JLabel(finalIcon);
